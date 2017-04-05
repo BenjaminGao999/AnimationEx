@@ -42,4 +42,5 @@ public class MainActivity extends AppCompatActivity {
     public void propertysimple(View view) {
         view.animate().x(0).y(0);
     }
+
 }

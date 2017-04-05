@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="translateparent"
+    android:orientation="vertical"
+    tools:context="com.gaos.viewanimation.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:onClick="viewanim"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/tv_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="tvviewanim"
+        android:text="textview"
+        android:textSize="38sp" />
+</LinearLayout>
+
+

@@ -1,0 +1,12 @@
+① java代码
+android.graphics.drawable包
+
+AnimationDrawable
+public class AnimationDrawable
+extends DrawableContainer implements Runnable, Animatable
+
+java.lang.Object
+   ↳	android.graphics.drawable.Drawable
+ 	   ↳	android.graphics.drawable.DrawableContainer
+ 	 	   ↳	android.graphics.drawable.AnimationDrawable
+

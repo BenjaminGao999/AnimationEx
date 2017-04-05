@@ -1,0 +1,13 @@
+① animation hierarychy
+
+->Property Animation
+->View Animation
+   -> Tween animation
+   -> Frame animation
+
+② doc
+https://developer.android.google.cn/guide/topics/resources/animation-resource.html#Property
+
+
+
+
